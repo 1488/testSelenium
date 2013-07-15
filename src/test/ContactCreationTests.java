@@ -20,7 +20,7 @@ public class ContactCreationTests {
   @BeforeTest
   public void setUp() throws Exception {
     driver = new FirefoxDriver();
-    baseUrl = "http://127.0.0.1:8888/";
+    baseUrl = "http://localhost:8888/";
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
   }
 
